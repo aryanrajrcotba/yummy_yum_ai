@@ -1,0 +1,47 @@
+{
+  "name": "yummy_yum_ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "/aryanrajrcotba/yummy_yum_a",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanrajrcotba/yummy_yum_ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryanrajrcotba/yummy_yum_ai/issues"
+  },
+  "homepage": "https://github.com/aryanrajrcotba/yummy_yum_ai#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.7",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^4.100.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

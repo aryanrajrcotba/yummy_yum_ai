@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "/aryanrajrcotba/yummy_yum_a",
+  "homepage": "https://github.com/aryanrajrcotba/yummy_yum_ai#readme",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -20,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/aryanrajrcotba/yummy_yum_ai/issues"
   },
-  "homepage": "https://github.com/aryanrajrcotba/yummy_yum_ai#readme",
   "dependencies": {
     "@supabase/supabase-js": "^2.49.7",
     "axios": "^1.9.0",
@@ -30,7 +29,8 @@
     "openai": "^4.100.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^3.0.1",
+    "yummy_yum_ai": "file:"
   },
   "browserslist": {
     "production": [

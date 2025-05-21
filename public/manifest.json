@@ -1,25 +1,50 @@
 {
   "short_name": "Yummy Yum AI",
-  "name": "Yummy Yum AI - Recipe Assistant",
+  "name": "Yummy Yum AI - Your AI Recipe Assistant",
+  "description": "Discover, create, and share delicious recipes with the help of AI",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "purpose": "any"
     },
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#FF6B6B",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "categories": ["food", "lifestyle", "utilities"],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Yummy Yum AI Recipe Search"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Recipes",
+      "short_name": "Search",
+      "description": "Search for new recipes",
+      "url": "/search",
+      "icons": [{ "src": "search-icon.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
 } 

@@ -20,7 +20,16 @@ function App() {
     };
   }, []);
 
-  return <div>{user ? <Dashboard user={user} /> : <AuthPage />}</div>;
+  return (
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      backgroundColor: '#f5f5f5'
+    }}>
+      {user ? <Dashboard user={user} /> : <AuthPage />}
+    </div>
+  );
 }
 
 export default App;
